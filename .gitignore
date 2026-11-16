@@ -1,0 +1,76 @@
+# ---- Unity (carpetas generadas) ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+
+# ---- IDE ----
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vsconfig
+
+/.utmp/
+
+# Paquete de Vuforia (132 MB, supera el límite de GitHub): se descarga de developer.vuforia.com
+Packages/*.tgz
+
+# ---- Builds ----
+*.apk
+*.aab
+*.unitypackage
+Recursos/07_APK/
+
+# ---- Datos privados: License Key de Vuforia (NO subir) ----
+Recursos/00_Vuforia/
+Assets/Resources/VuforiaConfiguration.asset
+Assets/Resources/VuforiaConfiguration.asset.meta
+
+# ---- Recursos de terceros que no se pueden redistribuir ----
+# Cartoon FX Remaster Free (Unity Asset Store): se importa gratis desde la Asset Store
+Assets/JMO Assets/
+Assets/JMO Assets.meta
+# Caras del Merge Cube (Merge Labs, "Do not distribute")
+Recursos/01_Dibujos/Cuboid_Merge_6cm/
+
+# ---- Archivos pesados / con licencia de terceros (para que el repositorio pese < 100 MB) ----
+# Modelos y animaciones FBX de Mixamo y Tripo 3D (387 MB, no se pueden redistribuir)
+*.fbx
+*.FBX
+# Texturas de los modelos (90 MB)
+Assets/FantasyAR/Modelos/*/Textures/*.png
+Assets/FantasyAR/Modelos/*/Textures/*.jpg
+# Dibujos originales en PNG (se suben las versiones JPG que usa Vuforia)
+Recursos/01_Dibujos/ImageTargets/*.png
+
+# ---- Duplicados (los mismos archivos ya están en Assets/FantasyAR) ----
+Recursos/02_Modelos/
+Recursos/03_Animaciones/
+
+# ---- Otros ----
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Vistas previas de las caras del Merge Cube (Do not distribute)
+Assets/Editor/Vuforia/ImageTargetTextures/*/cubeMerge.*_scaled.jpg
